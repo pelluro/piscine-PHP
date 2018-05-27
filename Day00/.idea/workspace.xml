@@ -16,8 +16,8 @@
           <file leaf-file-name="doft.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ex02/doft.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="882">
-                  <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+                <state relative-caret-position="352">
+                  <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -42,7 +42,9 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="72">
                   <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-                  <folding />
+                  <folding>
+                    <marker date="1527443525000" expanded="true" signature="444:642" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -50,10 +52,10 @@
           <file leaf-file-name="doft.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ex02/doft.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1131">
-                  <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+                <state relative-caret-position="599">
+                  <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
                   <folding>
-                    <marker date="1527438351000" expanded="true" signature="573:879" ph="..." />
+                    <marker date="1527442645000" expanded="true" signature="573:879" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -141,6 +143,12 @@
               <item name="Day00" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ex02" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Day00" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day00" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex02" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -185,12 +193,12 @@
       <workItem from="1527414338232" duration="123000" />
       <workItem from="1527414607914" duration="1484000" />
       <workItem from="1527416176056" duration="3742000" />
-      <workItem from="1527423092722" duration="13970000" />
+      <workItem from="1527423092722" duration="18397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21547000" />
+    <option name="totallyTimeSpent" value="25974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1839" height="1417" extended-state="0" />
@@ -203,7 +211,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39939487" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -288,7 +296,7 @@
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1527438351000" expanded="true" signature="573:879" ph="..." />
+            <marker date="1527442645000" expanded="true" signature="573:879" ph="..." />
           </folding>
         </state>
       </provider>
@@ -510,18 +518,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex02/doft.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        <state relative-caret-position="599">
+          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
-            <marker date="1527438351000" expanded="true" signature="573:879" ph="..." />
+            <marker date="1527442645000" expanded="true" signature="573:879" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex02/doft.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="352">
+          <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
           <folding />
         </state>
       </provider>

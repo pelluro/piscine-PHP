@@ -70,7 +70,7 @@ body {
 .col {
     display: inline-block;
     width: 7rem;
-    height: 22rem;
+    height: 30rem;
     float : left;
     padding: 1rem;
 }
@@ -78,8 +78,18 @@ body {
 .col img {
     display: block;
     margin: 0 auto;
-    width: 4.5rem;
+    width: 6rem;
 
+}
+.oeil {
+    border: solid red 8px;
+    border-radius: 16px;
+}
+.brick{
+    background: repeat url('resources/brick.jpg');
+    width: 115px;
+    height: 73px;
+    margin: 0 auto;
 }
 
 .col_middle {
@@ -105,21 +115,29 @@ body {
     background-color: #91E39F;
     position: absolute;
     margin: -4vw;
-    width: 20vw;
-    height: 6vw;
-    bottom: 42%;
+    width: 25vw;
+    height: 8vw;
+    bottom: 40%;
 }
 
-.bubble_text_center{
-    align-content: center;
+input{
+    width: 75%;
 }
 .police1{
-    font: 1em "Fira Sans", sans-serif;
+    font: 1.2em "Times";
+    padding-right: 1.5vw;
+    padding-left: 1vw;
 }
 .police2{
-    font: 1.5em "Fira Sans", sans-serif;
+    font: 1.5em "Times", sans-serif;
 }
 .police3{
-    font: 1.2em "Fira Sans", sans-serif;
     font-style: italic;
+}
+.police4{
+    text-shadow: 7px 7px 5px rgba(255, 77, 49, 1);
+}
+.form{
+    /*align-content: center;*/
+    padding-left: 1vw;
 }
