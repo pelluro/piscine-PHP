@@ -1,0 +1,27 @@
+
+body
+{
+    background-color: slategray;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+}
+
+h2 /*vw: relative to 1% of the width of the browser window size*/
+{
+    margin: 0;
+    font-size: 1vw;
+}
+
+.grey {
+    background-color: #E4C9C9;
+}
