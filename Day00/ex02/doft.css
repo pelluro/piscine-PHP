@@ -1,27 +1,125 @@
-
-body
-{
-    background-color: slategray;
-}
-
-table {
+img {
     width: 100%;
-    height: 100%;
 }
 
-td, th /* Mettre une bordure sur les td ET les th */
-{
-    text-align: center;
+body {
+    background-color: #505050;
+}
+
+/*------------------------------------*\
+    containere
+\*------------------------------------*/
+.container {
+    width: 80vw;
+    background: #505050;
+    margin: 0 auto;
+}
+
+/*------------------------------------*\
+    generalites
+\*------------------------------------*/
+.color {
+    background-color: #919191;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+}
+
+/*------------------------------------*\
+    header
+\*------------------------------------*/
+.header {
     position: relative;
-    border: 1px solid black;
 }
 
-h2 /*vw: relative to 1% of the width of the browser window size*/
-{
-    margin: 0;
-    font-size: 1vw;
+.doft {
+    /*position :absolute;*/
+    width: 500px;
 }
 
-.grey {
-    background-color: #E4C9C9;
+.loupe {
+    position: absolute;
+    width: 10rem;
+    bottom: -10%;
+    right: 5%;
+}
+
+.reload {
+    position: absolute;
+    width: 2rem;
+    top: 5%;
+    right: 0;
+}
+
+.close {
+    position: absolute;
+    width: 2rem;
+    bottom: 0;
+    right: 0;
+}
+
+/*------------------------------------*\
+    content
+\*------------------------------------*/
+
+.content {
+    width: 75vw;
+    margin: 2rem auto;
+    background: red;
+}
+
+.col {
+    display: inline-block;
+    width: 7rem;
+    height: 22rem;
+    float : left;
+    padding: 1rem;
+}
+
+.col img {
+    display: block;
+    margin: 0 auto;
+    width: 4.5rem;
+
+}
+
+.col_middle {
+    width:57vw;
+    float: left;
+    margin: 0 2rem;
+    overflow: hidden;
+}
+
+.img_re {
+    overflow: hidden;
+    padding: .5rem .5rem .25rem .5rem;
+}
+
+.col_middle img {
+    width: 100%;
+}
+
+/*------------------------------------*\
+    la bubble en bas
+\*------------------------------------*/
+.bubble{
+    background-color: #91E39F;
+    position: absolute;
+    margin: -4vw;
+    width: 20vw;
+    height: 6vw;
+    bottom: 42%;
+}
+
+.bubble_text_center{
+    align-content: center;
+}
+.police1{
+    font: 1em "Fira Sans", sans-serif;
+}
+.police2{
+    font: 1.5em "Fira Sans", sans-serif;
+}
+.police3{
+    font: 1.2em "Fira Sans", sans-serif;
+    font-style: italic;
 }
