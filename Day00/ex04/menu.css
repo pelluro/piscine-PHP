@@ -1,13 +1,12 @@
 body{
     background-color: #424558;
     font-family: 'Source Code Pro',"Comic Sans MS",serif;
-    margin:0px;
-    padding:0px;
+    margin:0vw;
+    padding:0vw;
 
 }
 .menu{
     text-align: center;
-
 }
 nav {
     width: 31%;
@@ -71,7 +70,9 @@ nav li:hover .details{
     padding: 0px;
     z-index: 1000;
 }
-
+ul ul {
+    display: none;
+}
 
 .details li{
     border-bottom: 1px solid #F3E63C;
@@ -97,6 +98,15 @@ nav li:hover .details_plat{
     left: 0px;
     padding: 5px;
     z-index: 1000;
+}
+
+.details_plat li{
+    display: none;
+}
+
+.hey:hover li  {
+    display: block;
+
 }
 
 .entree:hover{
