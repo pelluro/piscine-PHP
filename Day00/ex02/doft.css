@@ -10,7 +10,7 @@ body {
     containere
 \*------------------------------------*/
 .container {
-    width: 80vw;
+    width: 75vw;
     background: #505050;
     margin: 0 auto;
 }
@@ -31,16 +31,16 @@ body {
     position: relative;
 }
 
-.doft {
+.day {
     /*position :absolute;*/
     width: 500px;
 }
 
 .loupe {
     position: absolute;
-    width: 10rem;
-    bottom: -10%;
-    right: 5%;
+    width: 9vw;
+    bottom: -15%;
+    right: 3%;
 }
 
 .reload {
@@ -63,35 +63,43 @@ body {
 
 .content {
     width: 75vw;
-    margin: 2rem 7rem;
+    margin: 1.3vw 2.3vw;
     background: red;
 }
 
 .col {
     display: inline-block;
-    width: 7rem;
+    width: 8.5rem;
     height: 30rem;
     float : left;
-    padding: 1rem;
+    padding-top: 1.5vw;
+    padding-bottom: 0.5vw;
 }
 
 .col img {
     display: block;
     margin: 0 auto;
-    width: 6rem;
+    width: 5.5rem;
 
 }
 .oeil {
-    border: solid red 8px;
-    border-radius: 16px;
+    margin: .3rem .65vw;
+    border: solid red 5px;
+    border-radius: 8px;
+    width: 90px;
+    height: 85px;
+    /*border-image: 1px;*/
 }
 .brick{
     background: repeat url('resources/brick.jpg');
-    width: 115px;
+    width: 120px;
     height: 73px;
     margin: 0 auto;
 }
-
+.tower{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
 .col_middle {
     width:57vw;
     float: left;
@@ -116,7 +124,7 @@ body {
     background-color: #91E39F;
     position: absolute;
     margin: -4vw;
-    width: 29vw;
+    width: 28vw;
     height: 8vw;
     bottom: 26%;
 }
@@ -125,7 +133,7 @@ input{
     width: 75%;
 }
 .police1{
-    font: 1.8em "Times";
+    font: 1.75em "Verdana";
     padding-right: 1.5vw;
     padding-left: 1vw;
 }
