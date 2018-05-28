@@ -42,6 +42,7 @@ nav > ul > li > a {
     border: 2px solid navajowhite;
     border-radius: 15px;
 }
+
 nav > ul > li:hover a{
     padding: 15px 20px 30px 20px;
 }
@@ -53,6 +54,10 @@ nav li {
     display: none;
 }
 
+.details_plat{
+    display: none;
+
+}
 nav a{
     display: inline-block;
     text-decoration: none;
@@ -67,6 +72,7 @@ nav li:hover .details{
     z-index: 1000;
 }
 
+
 .details li{
     border-bottom: 1px solid #F3E63C;
 }
@@ -76,6 +82,21 @@ nav li:hover .details{
     font-size: 13px;
     color: black;
     width: 270px;
+}
+
+.details_plat li a{
+    font-size: 13px;
+    width: 70px;
+    display: inline-block;
+}
+
+nav li:hover .details_plat{
+    display: inline-block;
+    position:relative;
+    top : 100%;
+    left: 0px;
+    padding: 5px;
+    z-index: 1000;
 }
 
 .entree:hover{
@@ -114,7 +135,10 @@ nav li:hover .details{
     color: blue;
     font-weight: bold;
 }
-
+.details_plat li:hover a{
+    color: greenyellow;
+    font-weight: bold;
+}
 .entree .details li:hover{
     background-color: RGB(210,77,60);
 }
