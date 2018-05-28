@@ -97,6 +97,7 @@ body {
     float: left;
     margin: 0 2rem;
     overflow: hidden;
+    position: relative;
 }
 
 .img_re {
@@ -115,21 +116,21 @@ body {
     background-color: #91E39F;
     position: absolute;
     margin: -4vw;
-    width: 25vw;
+    width: 29vw;
     height: 8vw;
-    bottom: 40%;
+    bottom: 26%;
 }
 
 input{
     width: 75%;
 }
 .police1{
-    font: 1.2em "Times";
+    font: 1.8em "Times";
     padding-right: 1.5vw;
     padding-left: 1vw;
 }
 .police2{
-    font: 1.5em "Times", sans-serif;
+    font: 1.8em "Times", sans-serif;
 }
 .police3{
     font-style: italic;
@@ -140,4 +141,22 @@ input{
 .form{
     /*align-content: center;*/
     padding-left: 1vw;
+}
+
+.ikea{
+    position:absolute;
+    width: 5vw;
+    height: 5vw;
+    bottom: -40%;
+    margin: 20vw;
+    /*background: red;*/
+}
+
+.apple{
+    position:absolute;
+    width: 6vw;
+    height: 6vw;
+    bottom: 7vw;
+    right: 5vw;
+    /*background:peru;*/
 }
