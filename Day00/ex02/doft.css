@@ -124,13 +124,21 @@ body {
     background-color: #91E39F;
     position: absolute;
     margin: -4vw;
-    width: 28vw;
+    width: 29vw;
     height: 8vw;
     bottom: 26%;
 }
 
 input{
-    width: 75%;
+    width: 22vw;
+    height: 1vw;
+    border: 2px inset gainsboro;
+    /*padding: 1vw;*/
+}
+button{
+    width: 4vw;
+    height: 1vw;
+    font: 1em "Verdana";
 }
 .police1{
     font: 1.75em "Verdana";
