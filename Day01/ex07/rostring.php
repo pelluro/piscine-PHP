@@ -1,5 +1,6 @@
 <?php
-function ft_split_not_sort($str)
+
+function ft_split($str)
 {
     $tab = explode(" ", $str);
 
@@ -10,7 +11,11 @@ function ft_split_not_sort($str)
     }
     return($tab);
 }
-
-
-
+$tab2 = ft_split($argv[1]);
+$last =array_shift($tab2);
+foreach ($tab2 as $elem)
+{
+    echo "$elem ";
+}
+echo "$last\n";
 ?>
