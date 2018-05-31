@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 if ($argc == 2)
 {
@@ -8,14 +9,14 @@ if ($argc == 2)
         $tab = str_ireplace("  ", " ", $tab);
     }
     $my_tab = explode(" ", $tab);
-    foreach ($my_tab as $elem) {
+
+    foreach ($my_tab as $elem)
+    {
         echo $elem;
-        if(end($my_tab) == $elem)
+        if(end($my_tab) == $elem && $elem)
             echo"\n";
         else
-        {
             echo " ";
-        }
     }
 }
 
