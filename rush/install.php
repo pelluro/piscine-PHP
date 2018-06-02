@@ -1,10 +1,10 @@
 <?php
-require_once dirname(__FILE__)."/connection.php";
+require_once dirname(__FILE__)."/functions/connection_install.php";
 
-
-mysqli_query($db, "USE boutiques") ? "boutiques set\n" : "boutiques err\n";
-
-mysqli_query($db, "CREATE DATABASE boutiques");
+if(!mysqli_query($db, "USE boutiques"))
+{
+	mysqli_query($db, "CREATE DATABASE boutiques");
+}
 mysqli_query($db, "USE boutiques");
 
 /*****************************
@@ -12,69 +12,48 @@ mysqli_query($db, "USE boutiques");
  *****************************/
 
 $query = "CREATE TABLE users_shop (
-    id_users INT AUTO_INCREMENT,
-    login varchar(255),
+    id INT AUTO_INCREMENT,
+    username varchar(255),
     password varchar(512) NOT NULL,
-    PRIMARY KEY(id_users)
+    PRIMARY KEY(id)
 )";
-check_query($db, $query);
-
-$query= "INSERT INTO users_shop (login, password) VALUES
-('toto', 'tata'),
-('tata', 'lalala')";
 check_query($db, $query);
 
 /*****************************
  * la table des categories
  *****************************/
-
-
 $query = "
-CREATE TABLE categorie_shop (
-    id_cat INT AUTO_INCREMENT,
-    PRIMARY KEY (id_cat),
-    cat_nom varchar(255) NOT NULL
+CREATE TABLE category_shop (
+    id INT AUTO_INCREMENT,
+    PRIMARY KEY (id),
+    name varchar(255) NOT NULL
 )
 ";
 check_query($db, $query);
 
-$query= "INSERT INTO categorie_shop(cat_nom) VALUES
-('homme'),
-('femme'),
-('enfant'),
-('pull'),
-('chaussures')
-";
-check_query($db, $query);
 
 /*****************************
  * la table des produits
  *****************************/
 
 $query = "CREATE TABLE product_shop (
-    id_product INT AUTO_INCREMENT,
-    PRIMARY KEY (id_product),
-    name_pro varchar(255) NOT NULL, 
-    price INT NOT NULL,
-    categories INT,
-    FOREIGN KEY (categories) REFERENCES categorie_shop(id_cat)
+    id INT AUTO_INCREMENT,
+    PRIMARY KEY (id),
+    name varchar(255) NOT NULL,
+    price float NOT NULL,
+	imglink varchar(255)
 )";
 check_query($db, $query);
 
-$query= "INSERT INTO product_shop(name_pro,price,categories) VALUES
-('pull rose','20',3),
-('pantalon vert','10',1)
-";
-mysqli_query($db, $query);
 /*****************************
  * creation card shop
  *****************************/
 
 $query = "CREATE TABLE card_shop (
-    id_cards INT AUTO_INCREMENT,
-    PRIMARY KEY(id_cards),
-    id_users INT,
-    FOREIGN KEY (id_users) REFERENCES users_shop(id_users)
+    id INT AUTO_INCREMENT,
+    PRIMARY KEY(id),
+    user_id INT,
+    FOREIGN KEY (user_id) REFERENCES users_shop(id)
 )";
 check_query($db, $query);
 
@@ -82,10 +61,21 @@ check_query($db, $query);
  * creation card shop product
  *****************************/
 $query = "CREATE TABLE card_shop_product (
-    id_card_product INT,
-    FOREIGN KEY (id_card_product) REFERENCES card_shop(id_cards),
-    id_product INT,
-    FOREIGN KEY (id_product) REFERENCES product_shop(id_product),
+    card_shop_id INT,
+    FOREIGN KEY (card_shop_id) REFERENCES card_shop(id),
+    product_id INT,
+    FOREIGN KEY (product_id) REFERENCES product_shop(id),
     amount INT NOT NULL
+    )";
+check_query($db, $query);
+
+/*****************************
+ * creation categories product
+ *****************************/
+$query = "CREATE TABLE categories_product (
+    category_id INT,
+    FOREIGN KEY (category_id) REFERENCES category_shop(id),
+    product_id INT,
+    FOREIGN KEY (product_id) REFERENCES product_shop(id)
     )";
 check_query($db, $query);

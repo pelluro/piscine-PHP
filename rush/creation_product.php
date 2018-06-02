@@ -1,12 +1,6 @@
 <?php
-
-require_once dirname(__FILE__)."connection.php";
-
+require_once dirname(__FILE__)."/functions/connection.php";
 mysqli_query($link, "USE boutiques") ? "boutiques set\n" : "boutiques err\n";
-
-$login = "username";
-$password = "password";
-$dbname = "boutiques";
 
 // Check connection
 

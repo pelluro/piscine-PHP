@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <title>Les Produits</title>
     <div class="menu">
-        <?php include 'menu.php';?>
+        <?php include 'index.php';?>
     </div>
-    <link rel="stylesheet" href="produit.css">
+    <link rel="stylesheet" href="css/produit.css">
 
 </head>
 <body>
