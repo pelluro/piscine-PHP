@@ -9,7 +9,8 @@
 class UnholyFactory
 {
     private $_type = array[];
-    public function absorb($SoldierType){
+    public function absorb($SoldierType)
+    {
         if($SoldierType instanceof Fighter)
         {
             if (!in_array($SoldierType, $this->_type))
