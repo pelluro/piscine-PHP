@@ -15,7 +15,7 @@ class UnholyFactory
         {
             if (!in_array($SoldierType, $this->_type))
             {
-                $this->_type=$SoldierType;
+                $this->_type = $SoldierType;
                 print"(Factory absorbed a fighter of type".$SoldierType.")".PHP_EOL;
             }
             else
