@@ -32,5 +32,5 @@ class UnholyFactory
         print"(Factory hasn't absorbed any fighter of type ".$rf.")".PHP_EOL;
         return;
     }
-}
+}   
 
