@@ -1,14 +1,16 @@
 <?php
 
- abstract class Fighter
-{
-    protected $type;
-     public function __construct($soldier)
-     {
-        $this->type = $soldier;
-     }
-     public function getType(){
-         return $this->type;
-     }
-     abstract public function fight($target);
+abstract class Fighter {
+    private $_name;
+    abstract public function fight($target);
+    public function getName() {
+        return ($this->_name);
+    }
+    public function __construct( $name ) {
+        $this->_name = $name;
+    }
+    public function __toString() {
+        return ($this->getName());
+    }
 }
+?>

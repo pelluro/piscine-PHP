@@ -7,5 +7,4 @@ class Euron extends Greyjoy {
 		print($this->familyMotto . PHP_EOL);
 	}
 }
-
 ?>

@@ -11,7 +11,7 @@ class NightsWatch implements IFighter
     private $members;
     private $memberscount = 0;
 
-    public function recruits($recruit)
+    public function recruit($recruit)
     {
         if($recruit instanceof IFighter)
         {

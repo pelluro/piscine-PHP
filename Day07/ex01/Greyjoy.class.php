@@ -8,5 +8,5 @@
 
 class Greyjoy
 {
-    protected $familyMotto = "we do not sow";
+    protected $familyMotto = "We do not sow";
 }
