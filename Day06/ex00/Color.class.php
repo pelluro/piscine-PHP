@@ -21,7 +21,7 @@ class Color
             $this->blue = intval($color['blue']);
         } elseif (isset($color['rgb'])) {
             $rgb = intval($color["rgb"]);
-            $this->red = $rgb / 65281 % 256;
+            $this->red = $rgb / 65536 % 256;
             $this->green = $rgb / 256 % 256;
             $this->blue = $rgb % 256;
         }
