@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcc1e3bb-3115-410d-a010-e81ac5c5300d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/j09/ex02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/j09/ex02/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j09/ex03/ex00bis/balloon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j09/ex03/ex01bis/calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j09/ex03/ex02bis/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j09/ex03/ex02bis/todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j09/ex02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/j09/ex02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j09/ex02/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/j09/ex02/todo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,20 +51,43 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/j09/ex02/index.html">
+      <file leaf-file-name="todo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j09/ex02/todo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="340">
+              <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/j09/ex02/todo.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j09/ex02/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="72">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/j09/ex03/ex02bis/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calc.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j09/ex03/ex01bis/calc.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="todo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j09/ex03/ex02bis/todo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -115,6 +142,8 @@
         <option value="$PROJECT_DIR$/Day07/ex06/Fighter.class.php" />
         <option value="$PROJECT_DIR$/j09/ex02/todo.js" />
         <option value="$PROJECT_DIR$/j09/ex02/index.html" />
+        <option value="$PROJECT_DIR$/j09/ex03/ex02bis/index.html" />
+        <option value="$PROJECT_DIR$/j09/ex03/ex02bis/todo.js" />
       </list>
     </option>
   </component>
@@ -155,6 +184,32 @@
               <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="j09" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="j09" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex02" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="j09" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex03" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="j09" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex03" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex01bis" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="j09" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex03" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ex02bis" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,6 +223,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pellu\PhpstormProjects\piscinephp\PHP\j09" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pellu\PhpstormProjects\piscinephp\PHP\Day07\ex06" />
       <recent name="C:\Users\pellu\PhpstormProjects\piscinephp\PHP\Day07\ex05" />
@@ -417,7 +475,7 @@
       <workItem from="1527995390729" duration="629000" />
       <workItem from="1528312481369" duration="7492000" />
       <workItem from="1528320094860" duration="206000" />
-      <workItem from="1528547129751" duration="1875000" />
+      <workItem from="1528547129751" duration="3961000" />
     </task>
     <task id="LOCAL-00001" summary="ajout d07">
       <created>1528319927075</created>
@@ -426,14 +484,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528319927075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajout d09 ex02">
+      <created>1528561928817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528561928817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32100000" />
+    <option name="totallyTimeSpent" value="34186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12582298" />
@@ -465,12 +530,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout d07" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout d07" />
+    <MESSAGE value="ajout d09 ex02" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout d09 ex02" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phpautre/D01-PHP/ex04/aff_param.php" />
-    <entry file="file://$PROJECT_DIR$/phpautre/D01-PHP/ex05/epur_str.php" />
-    <entry file="file://$PROJECT_DIR$/phpautre/D01-PHP/ex06/ssap.php" />
     <entry file="file://$PROJECT_DIR$/Day01/ex02/oddeven.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -729,15 +792,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/j09/ex02/todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j09/ex03/ex02bis/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/j09/ex02/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="72">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j09/ex03/ex01bis/calc.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j09/ex03/ex02bis/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>

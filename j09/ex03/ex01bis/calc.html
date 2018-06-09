@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<form id="calc">
+    First number: <input id="first_number" type="text" name="first_number"><br>
+    <select id="operands" name="operand" form="calc">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <br>
+    Second number: <input id="second_number" type="text" name="second_number"><br>
+    <input type="submit" value="Try me!" onclick="calc_function()">
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</form>
+<script>
+	setInterval(function () {alert("Please, use me...")}, 30000);
+	function sum_num(num1, num2) {
+		var result = Number(num1) + Number(num2);
+		return (result);
+	}
+
+	function diff_num(num1, num2) {
+		var result = Number(num1) - Number(num2);
+		return (result);
+	}
+
+	function mult_num(num1, num2) {
+		var result = Number(num1) * Number(num2);
+		return (result);
+	}
+
+	function div_num(num1, num2) {
+		if (num2 == 0)
+		{
+			console.log('It\'s over 9000!');
+			alert('It\'s over 9000!');
+			return ('It\'s over 9000!');
+		}
+		var result = Number(num1) / Number(num2);
+		return (result);
+	}
+
+	function mod_num(num1, num2) {
+		if (num2 == 0)
+		{
+			console.log('It\'s over 9000!');
+			alert('It\'s over 9000!');
+			return ('It\'s over 9000!');
+		}
+		var result = Number(num1) % Number(num2);
+		return (result);
+	}
+
+	function check_values(num1, num2) {
+		if (isNaN(num1) || isNaN(num2) || parseFloat(num1) != parseInt(num1) || parseFloat(num2) != parseInt(num2) || parseInt(num1) < 0 || parseInt(num2) < 0)
+		{
+			alert('Error :(');
+			return (false);
+		}
+		else
+			return (true);
+	}
+
+	function calc_function() {
+		var num1 = $("#first_number").val();
+		var num2 = $("#second_number").val();
+		var texte = $("#operands option:selected").text();
+		var check = check_values(num1, num2);
+		if (!check)
+			return ;
+		if (texte == "+" && num1 >= 0 && num2 >= 0)
+			var result = sum_num(num1, num2);
+		if (texte == "-" && num1 >= 0 && num2 >= 0)
+			var result = diff_num(num1, num2);
+		if (texte == "*" && num1 >= 0 && num2 >= 0)
+			var result = mult_num(num1, num2);
+		if (texte == "/" && num1 >= 0 && num2 >= 0)
+			var result = div_num(num1, num2);
+		if (texte == "%" && num1 >= 0 && num2 >= 0)
+			var result = mod_num(num1, num2);
+		if (result != 'It\'s over 9000!')
+		{
+			console.log(result);
+			alert(result);
+		}
+		return ;
+	}
+</script>
+</body>
+</html>

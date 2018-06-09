@@ -31,18 +31,18 @@ var idDiv = 0;
 	
 	function Add(todo)
 	{
-		var node = document.getElementById("ft_list");
+		var node = $("#ft_list");
 		var newDiv = document.createElement("div");
 		var content = document.createTextNode(todo);
 		newDiv.appendChild(content);
-		newDiv.className = "todo";
 		newDiv.style.cursor ='pointer';
+		newDiv.className = "todo";
 		newDiv.id = 'listeelem'+idDiv;
 		newDiv.onclick = function(){
 				if(confirm("Are you sure ?"))
 					Remove(newDiv.id);
 			};
-		node.insertBefore(newDiv, node.firstChild);
+		node.prepend(newDiv);
 		document.cookie = newDiv.id + "=" + todo + "; expires="+getDate(365)+"; path=/";
 		idDiv++;
 	}
@@ -53,20 +53,10 @@ var idDiv = 0;
 		return date.toGMTString()
 	}
 
+
 	function Remove(id)
 	{
-		var node = document.getElementById("ft_list");
-		var children = node.childNodes;
-		for(var i=0; i<children.length;i++)
-		{
-			var child = children[i];
-			if(child.id == id)
-			{
-				var content = child.textContent;
-				node.removeChild(child);
-				document.cookie = id + "=" + content + "; expires="+getDate(-1)+"; path=/";
-				break;
-			}
-		}
-		
+		var content = $("#"+id).text();
+		$("#"+id).remove();
+		document.cookie = id + "=" + content + "; expires="+getDate(-1)+"; path=/";	
 	}
