@@ -7,7 +7,9 @@ if ($argc > 2)
             $key = strpos($elem,":");
             $value = substr($elem, 0, $key);
             if (!strcmp($value,$argv[1]))
+            {
             $res = substr($elem, $key + 1);
+            }
         }
         if (!empty($res))
             echo "$res\n";

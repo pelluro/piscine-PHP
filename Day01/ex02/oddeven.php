@@ -10,7 +10,7 @@ while (feof(STDIN) != true)
 		echo"^D\n";
 		exit();
 	}
-	if (is_numeric($str) == 0)
+	if (is_numeric($str) === false)
 	{
 		echo "'$str' n'est pas un chiffre\n";
 	}

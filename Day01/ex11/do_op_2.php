@@ -35,14 +35,14 @@ else {
             elseif (strpos($argv[1], '/') !== false)
             {
                 if ($tab2[1] == 0)
-                    echo "Division by zero not cool";
+                    echo "Division by zero";
                 else
                     $res = $tab2[0] / $tab2[1];
             }
             elseif (strpos($argv[1], '%') !== false)
             {
                 if ($tab2[1] == 0)
-                    echo "Modulo by zero not cool";
+                    echo "Modulo by zero";
                 else
                 $res = $tab2[0] % $tab2[1];
             }

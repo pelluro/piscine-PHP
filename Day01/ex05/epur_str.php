@@ -1,23 +1,30 @@
 #!/usr/bin/php
 <?php
+
+function ft_split($str)
+{
+    $str = explode(' ', $str);
+
+    foreach ($str as $key => $value)
+    {
+        if (empty($value) && $value != "0")
+            unset($str[$key]);
+    }
+    return $str;
+}
 if ($argc == 2)
 {
-    $all_elem = trim($argv[1]);
-    $tab = str_ireplace("  ", " ", $all_elem);
-    while (strstr($tab, "  "))
-    {
-        $tab = str_ireplace("  ", " ", $tab);
-    }
-    $my_tab = explode(" ", $tab);
-
-    foreach ($my_tab as $elem)
-    {
-        echo $elem;
-        if(end($my_tab) == $elem && $elem)
-            echo"\n";
-        else
+    $message = $argv[1];
+    $message = ft_split($message);
+    if (count($message) === 0)
+        exit();
+    $size = count($message);
+    $i = 0;
+    foreach ($message as $key => $item) {
+        echo "$item";
+        if (++$i <= $size - 1)
             echo " ";
     }
+    echo "\n";
 }
-
 ?>

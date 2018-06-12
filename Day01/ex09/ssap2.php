@@ -23,6 +23,8 @@ foreach ($argv as $value)
         $my_tab= array_merge($my_tab,$tab2);
     }
 }
+if (count($my_tab) === 0)
+    exit();
 
 function custom_sort($s1,$s2)
 {
@@ -35,19 +37,17 @@ function custom_sort($s1,$s2)
     {
         $poss1 = strpos($ref, ord($cs1[$i]));
         $poss2 = strpos($ref, ord($cs2[$i]));
-        if ($poss1 < $poss2)
-            return (-1);
-        else if ($poss1 > $poss2)
-            return (1);
+        if ($poss1 != $poss2)
+            return ($poss1 - $poss2);
         else
             $i++;
     }
 }
 
 usort($my_tab,"custom_sort");
+
 foreach ($my_tab as $val)
 {
     echo "$val\n";
 }
 ?>
-
