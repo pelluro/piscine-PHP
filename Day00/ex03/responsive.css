@@ -5,6 +5,7 @@ table {
     height: 100%;
 }
 
+
 td, th /* Mettre une bordure sur les td ET les th */
 {
     text-align: center;
@@ -88,13 +89,8 @@ td p {
 }
 
 img {
-    width: 100%;
+    width: 5vw;
     float : left;
     position:relative;
 }
 
-body {
-    /*width: 1420px;*/
-    background-position: center;
-    background-image: url(https://i1.wp.com/www.odilesacoche.be/wp-content/uploads/2016/05/wallpaper-watermelon-PC-pink.jpg);
-}
